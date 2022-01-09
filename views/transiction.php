@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Transactions</title>
+    <title>Transactions Sample</title>
     <style>
         table {
             width: 100%;
@@ -36,20 +36,20 @@
     </tr>
     </thead>
     <tbody>
-    <!-- YOUR CODE -->
+    <!-- YOUR CODE Here-->
     </tbody>
     <tfoot>
     <tr>
         <th colspan="3">Total Income:</th>
-        <td><!-- YOUR CODE --></td>
+        <td><!-- YOUR CODE Here--></td>
     </tr>
     <tr>
         <th colspan="3">Total Expense:</th>
-        <td><!-- YOUR CODE --></td>
+        <td><!-- YOUR CODE Here--></td>
     </tr>
     <tr>
         <th colspan="3">Net Total:</th>
-        <td><!-- YOUR CODE --></td>
+        <td><!-- YOUR CODE Here--></td>
     </tr>
     </tfoot>
 </table>
