@@ -8,4 +8,13 @@ define("APP_PATH" , $root . 'app' . DIRECTORY_SEPARATOR);
 define("FILES_PATH" , $root . 'transaction' .DIRECTORY_SEPARATOR);
 define("VIEWS_PATH" , $root . 'views' .DIRECTORY_SEPARATOR);
 
+require APP_PATH . "app.php";
 
+$files = getTransactionFiles(FILES_PATH );
+
+$transactionsList = [];
+foreach ($files as $file){
+    $transactionsList = array_merge($transactionsList , getTransactions($file));
+}
+
+require VIEWS_PATH . 'transaction.php';

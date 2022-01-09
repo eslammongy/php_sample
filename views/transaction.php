@@ -36,7 +36,16 @@
     </tr>
     </thead>
     <tbody>
-    <!-- YOUR CODE Here-->
+    <?php if (! empty($transactionsList)): ?>
+    <?php foreach ($transactionsList as $transaction): ?>
+<tr>
+    <td><?= $transaction['date'] ?></td>
+    <td><?= $transaction['checkNumber'] ?></td>
+    <td><?= $transaction['description'] ?></td>
+    <td><?= $transaction['amount'] ?></td>
+</tr>
+    <?php endforeach; ?>
+    <?php endif ?>
     </tbody>
     <tfoot>
     <tr>
